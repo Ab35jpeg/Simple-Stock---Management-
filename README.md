@@ -160,7 +160,6 @@ __Below are basic steps to install and run a demonstration of the app on an Linu
   
 - Click `LOG OUT` (top right)
 
-- Login to the [web client](https://github.com/Aninstance/simple-stock-management-frontend) using the administrator user you created. Begin using Simple Stock Management.
 
 ### Update Instructions
 
@@ -168,18 +167,5 @@ __Below are basic steps to install and run a demonstration of the app on an Linu
 - Then, run `pip3 install -r requirements.txt`.
 - Then, restart the gunicorn server: `systemctl restart gunicorn.service djangoq.service`.
 
-## Brief UI instructions
 
-Please see the repository for the frontend client, at https://github.com/Aninstance/simple-stock-management-frontend
 
-Note: The above guide is not definitive and is intended for users who know their way around Ubuntu server and Django.
-
-*Users would need to arrange database backups and to secure the application appropriately when used in a production environment.*
-
-## Development Roadmap
-
-- No new features planned at present. To request a change or additional functionality, or to file a bug, please open a github issue and/or contact dan@uplandsdynamic.com.
-
-## Authors
-
-- Dan Bright (Uplands Dynamic), dan@uplandsdynamic.com
