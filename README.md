@@ -6,41 +6,18 @@ Please note, this application has not been audited for security and may contain 
 
 ## About
 
-This a demo/prototype repository for the server component of the Simple Stock Management stock and inventory system. It is built using web technologies, with a client/server architecture. The repository for the frontend app component is at: https://github.com/Aninstance/simple-stock-management-frontend
+This a demo/prototype repository for the server component of the Simple Stock Management stock and inventory system. It is built using web technologies, with a client/server architecture.
 
 The system allows "stores" to request transfers of stock ("order") from a central stock repository ("warehouse"). Stock is adjusted for the "Warehouse Account" and the "Store Account" as stock transfers are "ordered". Email notifications are sent to the "warehouse" administrator(s) and the ordering "store manager".
 
 This project offers a web frontend that connects to a RESTful API backend. Data is stored in either a SQLite, mySQL or PostgreSQL (recommended) database.
 
-## Support & Project Status
 
-A regularly patched, proprietary licensed application-as-a-service version, fully maintained for subscribers and clients, is available upon request (limited availability) and is currently priced at £10.00/month.
-
-A one-off installation service for this GPL licensed version is also available.
-
-The GPL licensed version of this project offered here is *not guaranteed* to be regularly maintained. It is made available here for demo/prototype purposes only, and should not be used in production (i.e. a "live" working environment) unless the administrator regularly patches project dependencies (i.e. PYPI & npm packages) with upstream security updates as and when released by vendors.
-
-If you would like to avail of the proprietary subscription to the application-as-a-service, or request other bespoke work on this project, please email to discuss: ssm@uplandsdynamic.com.
 
 ## Key Technologies for Server Component
 
 Key technologies include: Python 3.7; Django; Django-rest-framework; Django_q (for asynchronous processes); Javascript; HTML5; CSS3;
 
-## Live Demo
-
-There is a live demo, available here:
-
-https://frontend.ssm.webapps.uplandsdynamic.com
-
-There are two test users - one for the warehouse administrator, the other for a 'store manager'. Credentials are:
-
-Adminstrator:
-Username: test_admin
-Password: jduejHje(89K
-
-Manager:
-Username: test_manager
-Password: jduejHje(89K
 
 ## Screenshots
 
